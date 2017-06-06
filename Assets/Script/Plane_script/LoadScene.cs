@@ -13,6 +13,10 @@ public class LoadScene : MonoBehaviour {
        
     }
 	
+    public void Exit()
+    {
+        Application.Quit();
+    }
 	void Start()
     {
        
